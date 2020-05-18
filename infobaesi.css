@@ -1,0 +1,94 @@
+*{margin:0px;
+	 padding: 0px;
+}
+
+ul li { position: relative; }
+ul ul { display:none;
+position: absolute;
+top:100%;
+left:0;
+background:#06F60D; }
+
+nav ul li a { display:block; padding: 10px;} /*esto me sirve para que la manita de enlace me aparezca en todo el cuadro y no solo en las letras*/
+
+ul li:hover ul { display:block;
+    }
+
+header {color:#F69006;
+background: #06F60D;
+height: 100px;
+text-align: center;
+line-height: 100px;
+font-size: 30px;
+border-bottom: 5px solid green;
+}
+
+.clearfix { clear: both;
+             }
+
+nav {background: #4BF606;
+height: 50px;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	margin:0px;
+	text-align: center;
+ 	line-height: 29px;
+
+}
+ 
+
+#content { float:left;
+width:calc(80% - 40px); 
+min-height: 450px;
+background-color: green;
+padding: 20px;
+}
+
+aside { float:left;
+	width:calc(20% - 20px);
+	min-height: 450px;
+	background: orange;
+	 padding: 10px;}
+
+	
+footer { height: 30px;
+	  background-color: #F606EB; }   
+
+.article {
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+	padding-bottom: 10px;
+    border-bottom: 1px solid yellow;
+
+}  
+
+.article:first-child { 
+	padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid yellow;
+  }  
+
+nav a {text-decoration: none;
+text-transform: uppercase;
+color: white;}
+
+ul li:hover { background: orange; }
+ 
+ a {color: white;
+ text-decoration: none;}
+
+ 
+  
+
+       
+
+
+
+
+
+
+
